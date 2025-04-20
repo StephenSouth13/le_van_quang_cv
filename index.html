@@ -1,74 +1,76 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Le Van Quang - CV cá nhân</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Le Van Quang - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <style>
     * {
+      margin: 0;
+      padding: 0;
       box-sizing: border-box;
-      scroll-behavior: smooth;
+      font-family: 'Roboto', sans-serif;
     }
 
     body {
-      margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background: linear-gradient(to right, #e0f7fa, #e1bee7);
-      color: #333;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 5rem 1rem;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    .typed {
+      color: #00ffcc;
+      font-weight: 400;
+      font-size: 1.5rem;
     }
 
     .container {
       max-width: 1000px;
       margin: auto;
-      padding: 20px;
-      animation: fadeIn 1s ease-in-out;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    header {
-      text-align: center;
-      padding: 40px 0;
-    }
-
-    header img {
-      width: 150px;
-      border-radius: 50%;
-      border: 4px solid #fff;
-      box-shadow: 0 0 20px rgba(0,0,0,0.2);
-    }
-
-    header h1 {
-      margin: 10px 0 5px;
-      font-size: 2.5rem;
-      color: #4a148c;
-    }
-
-    header p {
-      font-size: 1.1rem;
-      color: #555;
+      padding: 2rem;
     }
 
     section {
-      margin: 40px 0;
+      margin-bottom: 3rem;
     }
 
     h2 {
-      color: #00796b;
-      border-bottom: 2px solid #b2dfdb;
-      padding-bottom: 8px;
+      color: #00ffcc;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #00ffcc;
+      padding-bottom: 0.5rem;
     }
 
     ul {
-      padding-left: 20px;
+      list-style-type: square;
+      margin-left: 1rem;
+    }
+
+    footer {
+      background-color: #111;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #ccc;
     }
 
     a {
-      color: #0288d1;
+      color: #00ffcc;
       text-decoration: none;
     }
 
@@ -76,93 +78,89 @@
       text-decoration: underline;
     }
 
-    .footer {
-      background: #4a148c;
-      color: white;
-      text-align: center;
-      padding: 30px 20px;
-      margin-top: 50px;
-    }
-
-    .footer a {
-      margin: 0 10px;
-      display: inline-block;
-      filter: brightness(0) invert(1);
-    }
-
-    .footer img {
-      width: 30px;
-      height: 30px;
-    }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 1.8rem;
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.2rem;
       }
-
-      header img {
-        width: 100px;
+      .typed {
+        font-size: 1.2rem;
       }
     }
   </style>
 </head>
+
 <body>
+  <header>
+    <h1>LE VAN QUANG</h1>
+    <div class="typed" id="typed"></div>
+    <p>Email: <a href="mailto:levanquang0926@gmail.com">levanquang0926@gmail.com</a> | Phone: (+84) 333 965 057</p>
+    <p><a href="https://linkedin.com/in/quangle65/" target="_blank">LinkedIn</a></p>
+  </header>
 
-  <div class="container">
-    <header>
-      <img src="download.jpg" alt="Avatar">
-      <h1>Le Van Quang</h1>
+  <main class="container">
+    <section>
+      <h2>EDUCATION</h2>
+      <p><strong>Foreign Trade University TP. HCM</strong> (Sep 2021 - Jan 2025)</p>
       <p>Bachelor of International Economics</p>
-    </header>
-
-    <section>
-      <h2>📧 Thông tin liên hệ</h2>
-      <p><strong>Email:</strong> <a href="mailto:levanquang0926@gmail.com">levanquang0926@gmail.com</a></p>
-      <p><strong>Điện thoại:</strong> <a href="tel:+84333965057">+84 333 965 057</a></p>
-      <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/quangle65">linkedin.com/in/quangle65</a></p>
-    </section>
-
-    <section>
-      <h2>🎓 Học vấn</h2>
-      <p><strong>Foreign Trade University TP.HCM</strong></p>
-      <p>Sep 2021 - Jan 2025 | Bachelor of International Economics</p>
       <ul>
         <li>GPA: 3.16/4.00</li>
         <li>Supply Chain Management: 8.8/10</li>
         <li>Business Analytics: 8.8/10</li>
-        <li>Probability & Statistics: 10.0/10</li>
+        <li>The Theory of Probability and Mathematical Statistics: 10.0/10.0</li>
       </ul>
     </section>
 
     <section>
-      <h2>💼 Kinh nghiệm</h2>
-      <p><strong>Revive International Co., Ltd</strong></p>
-      <p>Jul 2024 - Dec 2024 | Logistics & Customer Service Intern</p>
+      <h2>WORK EXPERIENCE</h2>
+      <p><strong>Revive International Production - Trading Company Limited</strong> (Jul 2024 - Dec 2024)</p>
+      <p><em>Logistics & Customer Service Intern</em></p>
       <ul>
-        <li>Phối hợp nhà cung cấp và forwarder đảm bảo giao hàng đúng hạn</li>
-        <li>Chuẩn bị chứng từ xuất nhập khẩu: B/L, Packing List, Invoice</li>
-        <li>Trả lời email, hỗ trợ sau bán hàng và xử lý khiếu nại</li>
+        <li><strong>Logistics Operations:</strong>
+          <ul>
+            <li>Coordinated with suppliers and freight forwarders to ensure timely shipment and delivery of goods.</li>
+            <li>Assisted in preparing shipping documents and ensured compliance with export-import regulations.</li>
+          </ul>
+        </li>
+        <li><strong>Customer Service:</strong>
+          <ul>
+            <li>Responded to customer inquiries and provided order status and support.</li>
+            <li>Resolved complaints through interdepartmental collaboration and built positive relationships.</li>
+          </ul>
+        </li>
       </ul>
     </section>
 
     <section>
-      <h2>🛠️ Kỹ năng</h2>
-      <p><strong>Công cụ phân tích dữ liệu:</strong> SQL, Excel, Power BI, Python (trình độ trung cấp)</p>
-      <p><strong>Văn phòng:</strong> Microsoft Office (Word, Excel, PowerPoint) – có chứng chỉ MOS</p>
-      <p><strong>Ngôn ngữ:</strong> Tiếng Việt (bản ngữ), Tiếng Anh (trung cấp)</p>
-      <p><strong>Kỹ năng mềm:</strong> Thuyết trình, Giải quyết vấn đề</p>
+      <h2>SKILLS & LANGUAGES</h2>
+      <ul>
+        <li>Data Analysis Tools: SQL, Excel, Power BI, Python (intermediate)</li>
+        <li>Microsoft Office: Word, Excel, PowerPoint (upper-intermediate), MOS Certifications</li>
+        <li>Languages: Vietnamese (native), English (intermediate)</li>
+        <li>Soft Skills: Presentation, Problem Solving</li>
+      </ul>
     </section>
-  </div>
+  </main>
 
-  <footer class="footer">
-    <p>© 2024 Le Van Quang</p>
-    <p>Made with 💜 from Vietnam</p>
-    <div>
-      <a href="https://linkedin.com/in/quangle65"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
-      <a href="mailto:levanquang0926@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email"></a>
-      <a href="tel:+84333965057"><img src="https://cdn-icons-png.flaticon.com/512/15/15929.png" alt="Phone"></a>
-    </div>
+  <footer>
+    <p>&copy; 2025 Le Van Quang.</p>
   </footer>
 
+  <script>
+    const typed = new Typed('#typed', {
+      strings: ['International Economics Student', 'Logistics Intern', 'Data Analyst Learner'],
+      typeSpeed: 50,
+      backSpeed: 25,
+      loop: true
+    });
+
+    ScrollReveal().reveal('section', {
+      delay: 200,
+      distance: '50px',
+      origin: 'bottom',
+      duration: 1000,
+      reset: false
+    });
+  </script>
 </body>
+
 </html>
