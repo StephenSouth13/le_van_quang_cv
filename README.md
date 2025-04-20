@@ -2,7 +2,7 @@
 
 A clean, professional **portfolio site** showcasing education, work experience, and skills. Built using **HTML, CSS**, and JavaScript libraries for animation and interaction.
 
-📍 **Live Site**: [https://stephensouth13.github.io/cv-le-van-quang/](https://stephensouth13.github.io/cv-le-van-quang/)
+📍 **Live Site**: [[https://stephensouth13.github.io/cv-le-van-quang/](https://stephensouth13.github.io/cv-le-van-quang/)](https://stephensouth13.github.io/le_van_quang_cv/)
 
 ---
 
